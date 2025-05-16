@@ -1,0 +1,75 @@
+# Archivos de entorno
+.env
+
+# Archivos de certificados y claves privadas
+*.pem
+
+# Archivos comprimidos
+*.gz
+
+# Archivos de texto temporales o de respaldo
+*.txt
+
+# Directorios de entornos virtuales
+venv/
+env/
+.virtualenv/
+backapp/
+
+# Archivos de base de datos MySQL (backups y dumps)
+*.sql
+*.sql.gz
+dump_*.sql
+
+# Directorios de facturas generadas
+/xmls
+
+# Archivos de respaldo y copias
+*-Copy.py
+*-Backup.py
+*.bak
+*.swp
+
+# Archivos de log
+*.log
+
+# Archivos PDF generados automáticamente
+*.pdf
+
+# Archivos temporales de editores
+*.swp
+*.swo
+.idea/
+.vscode/
+*.DS_Store
+
+# Archivos de caché y compilación
+__pycache__/
+backapp_siat/__pycache__/
+backapp_siat/logs/
+backapp_siat/pages/__pycache__/
+
+# Archivos temporales de subida
+.tmp.driveupload/
+
+# Archivos de documentación o estructura
+estructura.md
+
+# Archivos temporales de compilación de Python
+*.pyc
+*.pyo
+
+# Directorios innecesarios o pruebas fuera del repositorio principal
+backapp_siat/off/*
+backapp_siat/cuarentena/*
+
+# Directorios de datos de MySQL si usas Docker
+mysql_data/
+
+# Archivos de MySQL Workbench
+*.mwb
+
+__pycache__/
+*.pyc
+
+codigo/*
